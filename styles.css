@@ -98,8 +98,7 @@ main p {
 
 .form-wrapper {
   width: 35rem;
-  height: 42rem;
-
+  
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -110,25 +109,53 @@ main p {
   margin-bottom: 4.3rem;
 }
 
-.form-wrapper input, textarea {
-  width: 34.8rem;
-  border-radius: 1.6rem;
-  margin-bottom: 2.4rem;
-  padding: 1.2rem 1.6rem; 
-}
-
-.form-wrapper input {
+.form-wrapper div {
   width: 34.8rem;
   height: 4.8rem;
 
-  border-radius: 1.6rem; 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 
+  border: .15rem solid #312D64;
+  border-radius: 1.6rem; 
+  margin-bottom: 2.4rem;
 }
+
+.form-wrapper input {
+  width: 28rem;
+  height: 4rem;
+
+  z-index: 1;
+  border: none;
+  outline: rgb(129, 105, 160);
+}
+
+.form-wrapper img {
+  width: 2.5rem;
+  height: 2.5rem;
+
+  margin: 1.2rem;
+}
+
+.form-wrapper textarea {
+  width: 34.8rem;
+  height: 12.6rem;
+  border-radius: 1.6rem;
+  border: .15rem solid #312D64;
+
+  margin-bottom: 2.4rem;
+  padding: 1.2rem 1.6rem; 
+} 
+
 
 .form-wrapper button {
   width: 15.1rem;
   height: 5.6rem;
   color: white;
+
+  cursor: pointer;
 
   background: linear-gradient(96.21deg, #343193 0%, #302C63 99.68%);
   border-radius: 1.6rem;
