@@ -178,3 +178,22 @@ footer {
   margin-top: 5.4rem;
   background: linear-gradient(96.21deg, #343193 0%, #302C63 99.68%);
 }
+
+@media screen and (min-width: 900px) and (orientation: landscape) {
+  
+  main {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  main img {
+    width: 72rem;
+    height: 73rem;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+  }
+
+
+}
