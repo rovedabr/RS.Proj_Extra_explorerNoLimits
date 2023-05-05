@@ -30,9 +30,9 @@ main {
 }
 
 .dark {
-  background: linear-gradient(180deg, #000000, #13246e, #c429a2);
+  background: linear-gradient(180deg, #000000, #13246e, #c429a2, #13246e, #000000);
   background-size: 500% 500%;
-  animation: animation 20s ease-in-out infinite;
+  animation: animation 30s ease-in-out infinite;
 }
 
 @keyframes animation {
@@ -71,6 +71,11 @@ h1, h2 {
 
 .dark h1, h2 {
   color: white;
+}
+
+.dark .cards h2,
+.cards h2 {
+  color: #B52184;
 }
 
 .dark .content p {
