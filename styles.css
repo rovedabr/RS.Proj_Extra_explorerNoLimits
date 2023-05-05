@@ -30,14 +30,24 @@ main {
 }
 
 .dark {
-  background-color: blue;
+  background: linear-gradient(180deg, #000000, #13246e, #c429a2);
+  background-size: 500% 500%;
+  animation: animation 20s ease-in-out infinite;
+}
+
+@keyframes animation {
+  0%{background-position:0% 25%}
+  25%{background-position: 25% 50%}
+  50%{background-position:50% 75%}
+  75%{background-position:75% 100%}
 }
 
 .page #modeIcon {
   width: 5rem;
 
   position: absolute;
-  right: 0;
+  right: 2rem;
+  top: 3rem;
   z-index: 9999;
 }
 
