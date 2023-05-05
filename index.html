@@ -10,51 +10,53 @@
   <title>Explore sem limites</title>
 </head>
 <body>
-  <main>
-
-    <div class="content">
-      <img src="./assets//universe.svg" alt="astronauta em um universo">
-      <div class="form">
-        <h1>Explore sem limites</h1>
-        <p>Porque o aprendizado é contínuo</p>
-        <input id="next" type="image" onclick={goNext()} src="./assets/button.svg" alt="botão de navegação" to="cards">
-      </div>   
-
-    </div>
-    <div class="cards">
-      <div class="card">
-        <img src="./assets//yellowWorld.svg" alt="Imagem de um mundo amarelo">
-        <h2>Não pare nunca</h2>
-        <p>Se você deseja ter sucesso nos estudos, é fundamental que você adote uma mentalidade de "não pare nunca". Estudar de forma consistente e contínua é a chave para o progresso e a conquista de seus objetivos.</p>
-      </div>
-      <div class="card">
-        <img src="./assets//blueWorld.svg" alt="Imagem de um mundo azul">
-        <h2>Só volta</h2>
-        <p>Se você parou ou perdeu o ritmo em alguma atividade ou projeto, saiba que nunca é tarde para recomeçar. Às vezes, as circunstâncias podem mudar, ou podemos nos sentir desmotivados ou sobrecarregados.</p>
-      </div>
-      <div class="card">
-        <img src="./assets//pinkWorld.svg" alt="Imagem de um mundo rosa">
-        <h2>Siga seu ritmo</h2>
-        <p>Avançar pouco a pouco mantém progresso constante em objetivos, evitando parar ou desistir. Mesmo pequenos passos nos aproximam do destino e motivam a continuidade. Não subestime o poder de cada ação rumo ao objetivo final.</p>
-      </div>
-    </div>
+  <div class="page">
+    <input id="modeIcon" type="image" src="./assets/icon.svg" alt="" onclick={changeMode()}>
+    <main>
+      <div class="content">
+        <img src="./assets//universe.svg" alt="astronauta em um universo">
+        <div class="form">
+          <h1>Explore sem limites</h1>
+          <p>Porque o aprendizado é contínuo</p>
+          <input id="next" type="image" onclick={goNext()} src="./assets/button.svg" alt="botão de navegação" to="cards">
+        </div>   
   
-    <div class="form-wrapper">
-      <h1>Entre em contato</h1>
-      <div>
-        <img src="./assets/user.svg" alt="">
-        <input type="text" placeholder="Seu nome">
       </div>
-      <div>
-        <img src="./assets/email.svg" alt="">
-        <input type="email" placeholder="Email">
+      <div class="cards">
+        <div class="card">
+          <img src="./assets//yellowWorld.svg" alt="Imagem de um mundo amarelo">
+          <h2>Não pare nunca</h2>
+          <p>Se você deseja ter sucesso nos estudos, é fundamental que você adote uma mentalidade de "não pare nunca". Estudar de forma consistente e contínua é a chave para o progresso e a conquista de seus objetivos.</p>
+        </div>
+        <div class="card">
+          <img src="./assets//blueWorld.svg" alt="Imagem de um mundo azul">
+          <h2>Só volta</h2>
+          <p>Se você parou ou perdeu o ritmo em alguma atividade ou projeto, saiba que nunca é tarde para recomeçar. Às vezes, as circunstâncias podem mudar, ou podemos nos sentir desmotivados ou sobrecarregados.</p>
+        </div>
+        <div class="card">
+          <img src="./assets//pinkWorld.svg" alt="Imagem de um mundo rosa">
+          <h2>Siga seu ritmo</h2>
+          <p>Avançar pouco a pouco mantém progresso constante em objetivos, evitando parar ou desistir. Mesmo pequenos passos nos aproximam do destino e motivam a continuidade. Não subestime o poder de cada ação rumo ao objetivo final.</p>
+        </div>
       </div>
-      <textarea name="" placeholder="Digite sua mensagem aqui" id="" cols="30" rows="10"></textarea>
-      <button>Enviar mensagem</button>
-      <img id="stars" src="./assets//stars.svg" alt="Estrelas noc anto inferior em cor rosa">
-    </div>
-  </main>
-  <footer>© 2023 - Rocketseat Explorer</footer>
+    
+      <div class="form-wrapper">
+        <h1>Entre em contato</h1>
+        <div>
+          <img src="./assets/user.svg" alt="">
+          <input type="text" placeholder="Seu nome">
+        </div>
+        <div>
+          <img src="./assets/email.svg" alt="">
+          <input type="email" placeholder="Email">
+        </div>
+        <textarea name="" placeholder="Digite sua mensagem aqui" id="" cols="30" rows="10"></textarea>
+        <button>Enviar mensagem</button>
+        <img id="stars" src="./assets//stars.svg" alt="Estrelas noc anto inferior em cor rosa">
+      </div>
+    </main>
+    <footer>© 2023 - Rocketseat Explorer</footer>
+  </div>
   <script src="./script.js"></script>  
 </body>
 </html>
