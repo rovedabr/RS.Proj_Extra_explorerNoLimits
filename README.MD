@@ -6,7 +6,8 @@ Desafio extra da Rocketseat relembrando os conceitos básicos de HTML, JavaScrip
 https://explorernolimits.netlify.app/
 
 ## Imagem
-1[pag1]()
+![image](https://user-images.githubusercontent.com/118762335/236540164-f3b156fe-d1e7-4715-b9d5-8d861dfe8bec.png)
+![image](https://user-images.githubusercontent.com/118762335/236540323-ea6c4902-37bd-492a-8697-4c7e729bed9e.png)
 
 ## Características
 - Criação do layout conforme Figma
