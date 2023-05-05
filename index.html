@@ -11,13 +11,16 @@
 </head>
 <body>
   <main>
-    <img src="./assets//universe.svg" alt="astronauta em um universo">
-    <div class="form">
-      <h1>Explore sem limites</h1>
-      <p>Porque o aprendizado é contínuo</p>
-      <input id="next" type="image" onclick={goNext()} src="./assets/button.svg" alt="botão de navegação" to="cards">
+
+    <div class="content">
+      <img src="./assets//universe.svg" alt="astronauta em um universo">
+      <div class="form">
+        <h1>Explore sem limites</h1>
+        <p>Porque o aprendizado é contínuo</p>
+        <input id="next" type="image" onclick={goNext()} src="./assets/button.svg" alt="botão de navegação" to="cards">
+      </div>   
+
     </div>
-  
     <div class="cards">
       <div class="card">
         <img src="./assets//yellowWorld.svg" alt="Imagem de um mundo amarelo">
@@ -48,6 +51,7 @@
       </div>
       <textarea name="" placeholder="Digite sua mensagem aqui" id="" cols="30" rows="10"></textarea>
       <button>Enviar mensagem</button>
+      <img id="stars" src="./assets//stars.svg" alt="Estrelas noc anto inferior em cor rosa">
     </div>
   </main>
   <footer>© 2023 - Rocketseat Explorer</footer>
