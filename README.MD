@@ -1,6 +1,6 @@
 #Explore sem limites
 
-Desafio extra da Rocketseat relembrando os conceitos básicos de HTML, JavaScripT e CSS.
+Desafio extra da Rocketseat relembrando os conceitos básicos de HTML, JavaScript e CSS.
 
 ## Deploy
 https://explorernolimits.netlify.app/
